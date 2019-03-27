@@ -1,5 +1,7 @@
-'use strict';
+import 'dotenv/config';
 
-const Hapi = require('hapi');
+console.log(process.env.PORT)
 
-const index = new Hapi.Server();
+// const Hapi = require('hapi');
+//
+// const index = new Hapi.Server();
