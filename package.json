@@ -3,11 +3,17 @@
   "version": "1.0.0",
   "main": "src/index.js",
   "license": "MIT",
+  "repository": {
+    "type": "git"
+  },
   "scripts": {
-    "start": "nodemon --exec babel-node src/index.js"
+    "start": "nodemon --exec babel-node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "hapi": "16"
+    "hapi": "16",
+    "marko": "4.7.5",
+    "vision": "4.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.4.0",
