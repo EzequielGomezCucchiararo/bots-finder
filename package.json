@@ -2,6 +2,7 @@
   "name": "bots-finder",
   "version": "1.0.0",
   "main": "src/index.js",
+  "private": "true",
   "license": "MIT",
   "repository": {
     "type": "git"
@@ -20,6 +21,8 @@
     "@babel/node": "^7.2.2",
     "@babel/preset-env": "^7.4.2",
     "dotenv": "^7.0.0",
-    "nodemon": "^1.18.10"
+    "nodemon": "^1.18.10",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
   }
 }

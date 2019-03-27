@@ -10,7 +10,7 @@ var marko_template = module.exports = require("marko/src/html").t(__filename),
 function render(input, out, __component, component, state) {
   var data = input;
 
-  out.w("<h1>Hello Chats Bots</h1>");
+  out.w("<h1>Hello Chats Bots v1</h1>");
 }
 
 marko_template._ = marko_renderer(render, {

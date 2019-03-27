@@ -17,8 +17,7 @@ server.route({
     handler: function (request, reply) {
         reply.view('index');
     }
-})
-
+});
 
 async function init() {
     try {
@@ -33,7 +32,7 @@ async function init() {
                                 return template.renderToString(context);
                             } catch (error) {
                                 const { requestId } = context;
-                                serverLogger.error({ error, requestId }, 'Error rendering template');
+                                console.error(`Error rendering template ${requestId}`, error);
                                 throw error;
                             }
                         };
