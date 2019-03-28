@@ -4,11 +4,16 @@
   "main": "src/index.js",
   "private": "true",
   "license": "MIT",
+  "engines": {
+    "node": "11.x",
+    "yarn": "1.x"
+  },
   "repository": {
     "type": "git"
   },
   "scripts": {
-    "start": "nodemon --exec babel-node src/index.js",
+    "start": "node --exec babel-node src/index.js",
+    "watch": "nodemon --exec babel-node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
